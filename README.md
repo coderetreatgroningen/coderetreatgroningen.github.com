@@ -1,4 +1,0 @@
-coderetreatgroningen.github.com
-===============================
-
-Webpage
