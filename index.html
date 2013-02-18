@@ -1,79 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Coderetreatgroningen.github.com by coderetreatgroningen</title>
-  </head>
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/coderetreatgroningen">View on GitHub</a>
-    <div class="shell">
+  <title>Welcome to Foundation</title>
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Coderetreatgroningen.github.com</h1>
-            <h2>Webpage</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
 
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <div id='head'>
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Code Retreat Groningen</h1>
+        <p>Eerstvolgende retreat: <strong>16 maart</strong></p>
       </div>
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="eight columns">
+      <p>Op zaterdag 16 maart wordt er een code retreat georganiseerd in Groningen. Een code retreat is een (gratis) dag lang je programmeerskills aanscherpen. We werken niet aan een specifieke taal, technologie of framework, maar richten ons de hele dag lang op de kern: programmeren.
 
-      <span class="banner-fix"></span>
+      <p>Deze dag organiseren we bij Ordina in Groningen, en duurt van 9:00 tot 17:00. De lunch is inclusief, en de dag is volledig gratis. We vragen je om een laptop mee te nemen met ingerichte ontwikkelomgeving naar keuze. Als dat echt niet lukt is het niet perse een probleem, maar meld het dan wel even.
 
+      <h3>Wat is een code retreat?</h3>
 
-      <section id="main_content">
-        <h3>Code Retreat Groningen</h3>
+      <p>Gedurende de dag zul je pair programmen met allerlei mensen, aan telkens hetzelfde probleem (Conway's Game of Life). Telkens andere pairs, en steeds sessies van circa 45 minuten. Elke sessie probeer je te focussen op een bepaalde techniek. Eerst een keertje naar eigen inzicht, om even het probleem helder voor de geest te krijgen. De rest van de sessies werk je vervolgens met allerlei beperkingen: eens strict TDDen, of zonder dat je methodes dingen mogen returnen, of zonder dat je primitives buiten methodes mag rondgeven, of methodes mogen max 2 regels code hebben, of ... Nou ja je snapt het idee.
 
-<p>Coming to you 16 maart :) @ Ordina</p>
-      </section>
+      <p>Het idee achter die beperkingen is dat, door ze in het extreme te nemen, je kunt ontdekken in welke gevallen dat goede aanpakken zijn, en wanneer het alleen maar in de weg zit.
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/coderetreatgroningen">coderetreatgroningen</a> can be found on <a href="https://github.com/coderetreatgroningen">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
+      <p>De doelgroep is programmeurs. Eigenlijk typisch de programmeurs die in hun baan niet altijd de tijd vinden om echt diep bezig te zijn met programmeren, nog nooit aan TDD toegekomen zijn. ontwikkelt in de taal waar hij of zij zich het beste in kan vinden (Ruby, Java C#, …). Het gaat niet om de programmeertaal maar om de aanpak!
     </div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-38226281-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+    <div id="sidebar" class="four columns">
+      <h4>Inschrijven?</h4>
+      <p>Tof dat je ook mee wil doen! Klik hieronder om even je naam en e-mailadres achter te laten, dan weten we dat je komt.</p>
+      <p class="signup-btn-container"><a href="https://docs.google.com/spreadsheet/viewform?formkey=dC1velY1SFpWbl9uRUZ6Q05jVjRJZEE6MA" class="button">Inschrijven</a></p>
 
-  </body>
+
+      <h4>Ingeschreven</h4>
+      <ul class="block-grid two-up">
+        <!-- HOOFDEN -->
+      </ul>
+
+    </div>
+  </div>
+
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  <script src="javascripts/jquery.js"></script><script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script><script src="javascripts/jquery.foundation.forms.js"></script><script src="javascripts/jquery.foundation.reveal.js"></script><script src="javascripts/jquery.foundation.orbit.js"></script><script src="javascripts/jquery.foundation.navigation.js"></script><script src="javascripts/jquery.foundation.buttons.js"></script><script src="javascripts/jquery.foundation.tabs.js"></script><script src="javascripts/jquery.foundation.tooltips.js"></script><script src="javascripts/jquery.foundation.accordion.js"></script><script src="javascripts/jquery.placeholder.js"></script><script src="javascripts/jquery.foundation.alerts.js"></script><script src="javascripts/jquery.foundation.topbar.js"></script><script src="javascripts/jquery.foundation.joyride.js"></script><script src="javascripts/jquery.foundation.clearing.js"></script><script src="javascripts/jquery.foundation.magellan.js"></script>
+  -->
+
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+
+
+    <script>
+    $(window).load(function(){
+      $("#featured").orbit();
+    });
+    </script>
+
+</body>
 </html>

@@ -1,0 +1,25 @@
+body {
+  background-color: #ece4d8;
+}
+
+#head {
+  background-color: #003056;
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+#head h1 { color: white; }
+
+#sidebar {
+  margin-top: -3em;
+}
+
+#sidebar h4 {
+  margin-top: 2em;
+}
+
+.signup-btn-container {
+  text-align: center;
+}
