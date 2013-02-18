@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 
-#head h1 { color: white; }
+#head h1, #head h3 { color: white; }
 
 #sidebar {
   margin-top: -3em;
@@ -22,4 +22,14 @@ body {
 
 .signup-btn-container {
   text-align: center;
+}
+
+#wiewatwaar {
+  background: white;
+  padding: 2em 2em 1em 2em;
+}
+
+#wiewatwaar h4 {
+  text-align: center;
+  margin-top: 0;
 }
