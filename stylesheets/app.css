@@ -42,4 +42,5 @@ body {
 #people .block-grid li {
   max-height: 100px;
   overflow: hidden;
+  margin-bottom: 1em;
 }
